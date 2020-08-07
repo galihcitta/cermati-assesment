@@ -2,9 +2,17 @@ import React from 'react'
 
 function App() {
     return (
-        <div>
-            App
-        </div>
+        <>
+            <header>
+                ini header
+            </header>
+            <main>
+                ini main home
+            </main>
+            <footer>
+                ini footer
+            </footer>
+        </>
     )
 }
 
