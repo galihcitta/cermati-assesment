@@ -1,16 +1,20 @@
 import React from 'react'
 
+import NotificationPanel from '../components/NotificationPanel/index'
+import HomePage from '../components/HomePage/index'
+import NewsletterPanel from '../components/NewsletterPanel/index'
+
 function App() {
     return (
         <>
             <header>
-                ini header
+                <NotificationPanel />
             </header>
             <main>
-                ini main home
+                <HomePage />
             </main>
             <footer>
-                ini footer
+               <NewsletterPanel />
             </footer>
         </>
     )
